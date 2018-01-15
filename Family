@@ -1,0 +1,81 @@
+public class Family {
+    private String eyecolor, character, name;
+    private int age;
+    private double height, bday, weight;
+
+    public Family(String eyecolor, String character, double height, double bday, double weight, int age, String name) {
+        this.eyecolor = eyecolor;
+        this.weight = weight;
+        this.age = age;
+        this.eyecolor = eyecolor;
+        this.height = height;
+        this.character = character;
+        this.bday = bday;
+        this.name = name;
+    }
+
+    public String getEyecolor() {
+        return eyecolor;
+    }
+
+    public String getName() { return name; }
+
+    public void setEyecolor(String eyecolor) {
+        this.eyecolor = eyecolor;
+    }
+
+    public String getCharacter() {
+        return character;
+    }
+
+    public void setCharacter(String character) {
+        this.character = character;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public int getage() {
+        return age;
+    }
+
+    public void setYear(int age) {
+        this.age = age;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public double getBday() {
+        return bday;
+    }
+
+    public void setBday(double bday) {
+        this.bday = bday;
+    }
+
+    @Override
+    public String toString() {
+        return "Family - " +
+                name +
+                " - eyecolor-'" + eyecolor + '\'' +
+                ", character-'" + character + '\'' +
+                ", age-" + age +
+                ", height-" + height +
+                ", bday-" + bday +
+                ", weight-" + weight;
+
+    }
+}
+
+
