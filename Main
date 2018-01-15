@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        Family father = new Family("Blue", "Good", 185.5, 10.12, 80.5, 46, "Father") {
+        };
+        System.out.println(father);
+        Family mother = new Family ("Green", "Strict", 170, 15.08, 65.3, 42, "Mother") {};
+        System.out.println(mother);
+        Family son = new Family("Green", "Angry", 176, 31.12, 75, 17, "Son") {};
+        System.out.print(son);
+
+    }
+}
